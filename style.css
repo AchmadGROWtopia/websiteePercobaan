@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(190, 34, 185);
+}
+
+.RATE {
+    color: rgb(255, 0, 0);
+}
+
+button {
+    color: rgb(17, 255, 0);
+}
+
+.ror {
+    background-color: black;
+    outline-color: dimgray;
+}

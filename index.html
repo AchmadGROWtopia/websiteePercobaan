@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+    <html> 
+      <body>
+        <link rel="stylesheet" href="style.css">
+      <head>
+         <title>Madd</title>
+       </head>
+        </body>
+      <div class="displayed-items">
+        <div class="item left">
+          <p class="price item_price"><span></span>GROWTOPIA</p>
+          <p class="name item_name">GEMS RATE 800 GS ghoib</p>
+          <div class="size">
+            <div class="shim-select"><span class="label">Pilih Gems yang mau kamu beli!</span> <div class="arrows"></div></div>
+            <select name="size">
+              <option selected disabled class="satu">CODE</option>
+              <option selected disabled class="RATE">100k GEMS</option>
+              <option class="x">150k GEMS</option>
+              <option class="y">200k GEMS</option>
+              <option class="z">300k GEMS</option>
+              <option class="p">500k GEMS</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="item right">
+          <p class="price item_price"><span></span>LUCIFER</p>
+          <p class="name item_name">LICENSI aktif 30 days</p>
+          <div class="size">
+            <div class="shim-select"><span class="label">Pilih Licensi yang mau kamu beli!</span> <div class="arrows"></div></div>
+            <select name="size">
+              <option selected disabled class="ror">code</option>
+              <option value="">4BOT 220WL</option>
+              <option value="">8BOT 420WL</option>
+              <option value="">12BOT 620WL</option>
+              <option value="">16BOT 820WL</option>
+              <option value="">20BOT 1015WL</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <!-- /display items -->
+
+    </div>
+
+    <div class="showcase scaled"></div>
+
+   </div>
+
+   </body>
+   <body>
+   <div>
+   <form
+   action="#"
+   class="mx-auto mb-0 mt-8 max-w-md space-y-4"
+   onsubmit="sendMessageToWhatsapp()" 
+   >
+<p>
+  <input
+  type="text"
+  class="w-full rounded-lg border border-gray-200 p-4 pe-12 text-sm shadow-sm"
+  placeholder="ketik CODE pesanan kamu"
+  id="pesanan"
+  />
+  <button
+  type="submit"
+  class="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white w-full">
+  kirim pesanan
+  </button>
+  </p>
+  </form>
+</div>
+<script>
+  function sendMessageToWhatsapp () {
+    const urlToWhatsapp = `https://wa.me/6288247261420?text=buy ${pesanan.value}`;
+    window.open(urlToWhatsapp, "_blank");
+  }
+</script>
+</body>
+</html>
+
+<p>
+  *note : CODE yang berwarna merah = SOLD/produk habis
+</p>
